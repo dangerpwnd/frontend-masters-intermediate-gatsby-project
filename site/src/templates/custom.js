@@ -5,6 +5,7 @@ export default function CustomPage({ pageContext }) {
     <div>
       <h1>{pageContext.title}</h1>
       <pre>{JSON.stringify(pageContext, null, 2)}</pre>
+      <p>Oh hai doggie</p>
     </div>
   );
 }
